@@ -99,5 +99,9 @@ public class Employee {
         public void setCarNumber(String carNumber) {
             employee.setCarNumber(carNumber);
         }
+
+        public Employee getEmployee() {
+            return employee;
+        }
     }
 }
