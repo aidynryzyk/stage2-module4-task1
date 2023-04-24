@@ -100,7 +100,7 @@ public class Employee {
             employee.setCarNumber(carNumber);
         }
 
-        public Employee getEmployee() {
+        public Employee build() {
             return employee;
         }
     }
