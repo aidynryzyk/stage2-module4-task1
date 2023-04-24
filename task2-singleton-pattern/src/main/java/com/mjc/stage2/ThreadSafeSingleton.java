@@ -6,7 +6,7 @@ public class ThreadSafeSingleton {
     private ThreadSafeSingleton() {
     }
 
-    public ThreadSafeSingleton getInstance() {
+    public static ThreadSafeSingleton getInstance() {
         if (instance == null) {
             synchronized (ThreadSafeSingleton.class) {
                 if (instance == null) {
